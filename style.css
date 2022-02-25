@@ -1,0 +1,36 @@
+body {
+  background-color: #16171f;
+}
+.giallo {
+  color: #f9a31a;
+}
+
+.grigio {
+  color: #16171f;
+}
+
+.container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 1000px;
+  max-height: 600px;
+  background-color: black;
+  border-radius: 15px;
+  border: 7px solid #f9a31a;
+  background-color: #16171f;
+}
+ul {
+  max-width: 600px;
+  list-style: none;
+  color: white;
+  font-size: 65%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.home {
+  color: #f9a31a;
+}
