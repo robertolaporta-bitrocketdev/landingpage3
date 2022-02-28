@@ -11,26 +11,28 @@ body {
   background-color: #16171f;
   color: white;
 }
-
+.container {
+  height: 325px;
+  background-image: src("immagini/sfondojoker.jpeg");
+}
 .contenuto {
-  position: absolute;
   margin: auto;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   max-height: 600px;
-  max-width: 700px;
+  max-width: 550px;
 }
 
-.container {
+.main-container {
   position: absolute;
   margin: auto;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  max-width: 1000px;
+  max-width: 900px;
   max-height: 600px;
   border-radius: 20px;
   border: 7px solid #df8e14;
@@ -38,39 +40,36 @@ body {
 }
 
 header {
-  margin: 15px 0;
+  margin-top: 13px;
 }
 
 nav ul {
-  max-width: 600px;
+  max-width: 450px;
   list-style: none;
   font-size: 45%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
-footer {
-  max-width: 900px;
-  margin: 0;
-  position: absolute;
-  bottom: 20px;
-  left: 60px;
-}
 footer ul {
+  max-width: 550px;
+  padding: 0;
+  display: flex;
   list-style: none;
+  justify-content: space-between;
   font-size: 68%;
 }
+
 img {
-  max-width: 100px;
-}
-footer ul ul {
-  font-size: 100%;
+  width: 100px;
+  height: 152px;
 }
 
 span {
   color: #fac927;
   font-size: 150%;
 }
+
 .home {
   color: #df8e14;
 }
@@ -96,8 +95,9 @@ span {
   justify-content: space-between;
 }
 
-.only-flex {
+.pop {
   display: flex;
+  max-width: 550px;
   justify-content: space-between;
 }
 
