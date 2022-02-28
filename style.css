@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 body {
   height: 100vh;
   background: linear-gradient(
@@ -7,14 +8,11 @@ body {
     #16171f 50%,
     #16171f 100%
   );
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #16171f;
   color: white;
 }
-.container {
-  height: 325px;
-  background-image: src("immagini/sfondojoker.jpeg");
-}
+
 .contenuto {
   margin: auto;
   top: 0;
@@ -26,6 +24,9 @@ body {
 }
 
 .main-container {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("immagini/sfondojoker.png");
   position: absolute;
   margin: auto;
   top: 0;
@@ -40,11 +41,12 @@ body {
 }
 
 header {
-  margin-top: 13px;
+  margin: 13px 0;
 }
 
 nav ul {
-  max-width: 450px;
+  padding: 0;
+  max-width: 430px;
   list-style: none;
   font-size: 45%;
   display: flex;
@@ -71,7 +73,7 @@ span {
 }
 
 .home {
-  color: #df8e14;
+  color: #fac927;
 }
 
 .giallo {
@@ -103,4 +105,48 @@ span {
 
 .margin0 {
   margin: 0;
+}
+
+.container {
+  height: 312px;
+}
+
+.stellagrigia {
+  color: grey;
+}
+
+.article1 {
+  display: flex;
+  font-size: 60%;
+  align-items: end;
+}
+h1 {
+  margin-bottom: 0;
+  font-family: "Anton";
+  color: #dfdfdf;
+  font-size: 600%;
+}
+
+.article2 {
+  font-size: 60%;
+}
+
+.article3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button1 {
+  padding: 5px 20px;
+  font-size: 50%;
+  background: transparent;
+  border: 2px solid #fac927;
+  color: white;
+}
+
+.button2 {
+  font-size: 60%;
+  background-color: #df8e14;
+  border: none;
+  padding: 10px;
 }
